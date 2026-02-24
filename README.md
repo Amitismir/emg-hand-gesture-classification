@@ -49,9 +49,5 @@ Run main script:
 python main.py
 ```
 
-## 👨‍💻 Author
 
-Amitis Mirabedini
-Sharif University of Technology
-Sensing and Measurement course project
 
