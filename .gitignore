@@ -1,27 +1,41 @@
-# Python cache
-
-**pycache**/
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
 
+# -----------------------------
 # Jupyter
-
+# -----------------------------
 .ipynb_checkpoints/
 
+# -----------------------------
 # VSCode
-
+# -----------------------------
 .vscode/
 
-# Data (DO NOT upload raw EMG data)
-
+# -----------------------------
+# Data (ignore ALL data files)
+# -----------------------------
 data/raw/*
 data/interim/*
 data/processed/*
 
-# Allow folder but not files
-
+# keep folder structure but not files
 !data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
 
-# OS files
+# ignore heavy data formats
+*.mat
+*.npz
+*.csv
+*.npy
 
+# -----------------------------
+# OS junk
+# -----------------------------
 .DS_Store
 Thumbs.db
